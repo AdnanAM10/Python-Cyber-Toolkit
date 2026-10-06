@@ -1,0 +1,49 @@
+﻿# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# pytest
+.pytest_cache/
+
+# Virtual environments
+.venv/
+.venv-*/
+.venv*/
+venv/
+env/
+ENV/
+
+# Environment / secrets
+.env
+.env.*
+*.local
+
+# Coverage
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
